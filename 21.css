@@ -1,0 +1,71 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(red,blue);
+    height: 100vh;
+}
+#cont{
+    display: flex;
+    justify-content: center;
+    background-color: BLACK;
+    color: aliceblue;
+    width: 40%;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+header h1{
+    color: red;
+    font-size: 9rem;
+    margin: 0;
+}
+header h1 span{
+    color: chartreuse;
+}
+main h2{
+    text-align: center;
+    
+}
+main h4{
+    text-align: center;
+}
+main #but{
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+}
+main #but button{
+    width: 20%;
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+    background-color: greenyellow;
+    color: black;
+}
+main #but #new{
+    background-color: orange;
+}
+
+main p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+#res-button{
+    text-align: center;
+    margin:1rem
+
+}
+#res-button button{
+    width: 20%;
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+    background-color: grey;
+    color: black;
+}
